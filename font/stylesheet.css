@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Merienda One';
+    src: url('MeriendaOne-Regular.eot');
+    src: url('MeriendaOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MeriendaOne-Regular.woff2') format('woff2'),
+        url('MeriendaOne-Regular.woff') format('woff'),
+        url('MeriendaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
