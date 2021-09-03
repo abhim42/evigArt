@@ -1,6 +1,6 @@
 body {
   /* font-family: 'Merienda', cursive !important; */
-  font-family: "Merienda One";
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
 
@@ -112,3 +112,8 @@ header .overlay {
     display: none;
   }
 }
+#carousel-item{
+  object-fit: contain;
+
+}
+  
