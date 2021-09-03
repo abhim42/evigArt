@@ -1,0 +1,44 @@
+<html>
+  <head> </head>
+
+  <body>
+    <script type="text/javascript"> 
+
+        var text = [
+            "first item",
+            "second item",
+            "third item"
+        ]; 
+    
+        var Current = 0;
+    
+        document.getElementById("textHere").innerHTML = text[Current];
+    
+        function Prev(){
+            if(Current == 0){
+                Current = text.length - 1;}
+            else{
+                Current--;}
+    
+            document.getElementById("textHere").innerHTML = text[Current];
+        }
+    
+        function Next(){
+            if(Current == text.length - 1){
+                Current = 0}
+            else{
+                Current++;}
+    
+            document.getElementById("textHere").innerHTML = text[Current];
+        }
+    
+    </script>
+    
+    <div id="textHere"></div>
+    
+    <div>
+        <button onclick="Next();">Next!</button>
+        <button onclick="Prev();">Previous</button>
+    </div>
+  </body>
+</html>
