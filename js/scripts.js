@@ -25,6 +25,7 @@ $(document).ready(function () {
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
+  loop: true,
   spaceBetween: 30,
   autoSlider: true,
   pagination: {

@@ -1,6 +1,6 @@
 body {
   /* font-family: 'Merienda', cursive !important; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 100;
 }
 
@@ -102,6 +102,54 @@ header .overlay {
   padding: 1.25rem 0px !important;
 }
 
+.welcome-heading {
+  display: inline-block;
+  font-size: 53px;
+  /* font-weight: 600; */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
+  background-image: -webkit-linear-gradient(transparent, transparent),
+    url(../images/iconbox-bg.gif);
+  background-position: left;
+  background-size: 125%;
+  float: none;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
 /* Media Query for devices withi coarse pointers and no hover functionality */
 
 /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
@@ -116,8 +164,6 @@ header .overlay {
     display: none;
   }
 }
-#carousel-item{
+#carousel-item {
   object-fit: contain;
-
 }
-  
