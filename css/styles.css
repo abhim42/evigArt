@@ -167,3 +167,12 @@ header .overlay {
 #carousel-item {
   object-fit: contain;
 }
+.whatsappicon {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+.whatapp-icon {
+  width: 50px;
+}
+
